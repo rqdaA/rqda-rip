@@ -1,0 +1,10 @@
+[Unit]
+Description=Run rqda-rip client every 5 minutes
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=5min
+Unit=rqda-rip.service
+
+[Install]
+WantedBy=timers.target

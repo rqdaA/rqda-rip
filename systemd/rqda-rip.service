@@ -1,0 +1,8 @@
+[Unit]
+Description=Client of rqda-rip
+
+[Service]
+ExecStart=/home/rona/me/pros/rqda-rip/client/main
+
+[Install]
+WantedBy=default.target
